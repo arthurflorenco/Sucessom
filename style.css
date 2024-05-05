@@ -1,0 +1,95 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset */
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+/* Tags */
+
+header,
+footer {
+    background-image: url(pictures/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Header */
+
+header p {
+    font-size: 1.5em;
+}
+
+header h1 {
+    font-size: 6em;
+}
+
+
+.logo-social-media:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+    
+}
+
+.vertical-img {
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+    
+    }
+
+/* Services */
+
+.services{
+    padding: 100px;
+}
+
+
+
+
+/* History */
+
+.history-text{
+    padding: 60px;
+}
+
+.bg-img {
+    background-image: url(pictures/1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+    
+}
+
+/*Footer*/
+
+.hours{
+    padding: 50px;
+}
+
